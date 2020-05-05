@@ -8,8 +8,13 @@
 
 # DRIVEENDEVENT = result of drive
 
+import pandas as p
+import numpy as np
 
 '''
 first thing we'll analyze is between the following plays: run, pass, kick (punt)
 reward calculation based on DRIVEENDEVENT (only this for now)
 '''
+
+
+df.to_pickle(file_name)

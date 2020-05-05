@@ -13,7 +13,7 @@ def run_to_score(S1):
       print("team", team, "scored!") #if they score, this function is done!
       break
     else:
-      S = [10, 1, 100-result_drive['end_yard']]
+      S1 = [10, 1, 100-result_drive['end_yard']]
       # S = list(A=10, B=1, C=100-result_drive$end_yard) #if they don't score, give the other team the ball
       # where the previous team left off.
       team = (team+1)%2 #this is modular arithmetic. Gives us a graceful way to switch between teams
