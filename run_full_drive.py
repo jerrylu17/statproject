@@ -45,7 +45,7 @@ def full_drive(S):
 
     y = int(np.random.normal(loc=3, scale=1))
 
-    y = makePlay(S1)
+    # y = makePlay(S1)
 
     # y = floor(rnorm(1, mean=3, sd=1)) #how many yards do you gain.  This is a silly way to sample yards.  Should
     #definitely be replaced with a smarter sampling function, and one that is
